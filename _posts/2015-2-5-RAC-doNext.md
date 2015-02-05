@@ -5,11 +5,9 @@ title: RAC-doNext
 
 之前在看RAC的时候，一直不太明白`doNext`方法，看官方文档上写的是：
 
-	{% highlight Objective-C %}
-	// Do the given block on `next`. This should be used to inject side effects into
-	 the signal.
+	/// Do the given block on `next`. This should be used to inject side effects into
+	/// the signal.
 	- (RACSignal *)doNext:(void (^)(id x))block;
-	{% endhighlight %}
 	
 翻译成汉语就是“在`next`上执行`block`。它应该被用来对`signal`注入副作用”。感觉还是不懂。直到今天，无意当中搜到limboy的博客上面对一段代码的注释：
 
