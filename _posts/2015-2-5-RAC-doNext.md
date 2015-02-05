@@ -5,7 +5,6 @@ title: RAC-doNext
 
 之前在看RAC的时候，一直不太明白`doNext`方法，看官方文档上写的是：
 
-
 	{% highlight Objective-C %}
 	/// Do the given block on `next`. This should be used to inject side effects into
 	/// the signal.
@@ -17,7 +16,7 @@ title: RAC-doNext
 	{% highlight Objective-C %}
 	doNext:^(HBUser *user) {
 	// doNext相当于一个钩子，是在sendNext时会被执行的一段代码
-	                  @strongify(self);
+	                  @ strongify(self);
 	                  self.user = user;
 	              }]
 	{% endhighlight %}
