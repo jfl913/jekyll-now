@@ -7,7 +7,7 @@ title: RAC-doNext
 
 	{% highlight Objective-C %}
 	// Do the given block on `next`. This should be used to inject side effects into
-	// the signal.
+	 the signal.
 	- (RACSignal *)doNext:(void (^)(id x))block;
 	{% endhighlight %}
 	
