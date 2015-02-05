@@ -20,6 +20,8 @@ title: RAC-doNext
 
 看到这个注释突然好像明白了什么，最近看书也渐渐有看源码的意识了。立马到源码里看了下。
 
+	{% highlight Objective-C %}
+
 	- (RACSignal *)doNext:(void (^)(id x))block {
 		NSCParameterAssert(block != NULL);
 	
@@ -34,6 +36,8 @@ title: RAC-doNext
 			}];
 		}] setNameWithFormat:@"[%@] -doNext:", self.name];
 	}
+	{% endhighlight %}
+
 可以只看这一小段代码：
 
 	return [self subscribeNext:^(id x) {
