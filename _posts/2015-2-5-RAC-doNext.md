@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RAC-doNext
+title: 试试会不会动
 ---
 
 之前在看RAC的时候，一直不太明白`doNext`方法，看官方文档上写的是：
