@@ -11,13 +11,11 @@ title: RAC-doNext
 	
 翻译成汉语就是“在`next`上执行`block`。它应该被用来对`signal`注入副作用”。感觉还是不懂。直到今天，无意当中搜到limboy的博客上面对一段代码的注释：
 
-	{% highlight Objective-C %}
 	doNext:^(HBUser *user) {
 	// doNext相当于一个钩子，是在sendNext时会被执行的一段代码
 	                  @ strongify(self);
 	                  self.user = user;
 	              }]
-	{% endhighlight %}
 
 看到这个注释突然好像明白了什么，最近看书也渐渐有看源码的意识了。立马到源码里看了下。
 
