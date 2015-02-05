@@ -54,7 +54,6 @@ redcarpet:
   extensions:
     - with_toc_data
     - html_toc
-    - no_fenced_code_blocks
 highlighter: pygments
 permalink: /:title/
 pygments: true
