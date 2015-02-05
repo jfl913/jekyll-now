@@ -1,3 +1,8 @@
+---
+layout: post
+title: RAC-doNext
+---
+
 之前在看RAC的时候，一直不太明白`doNext`方法，看官方文档上写的是：
 
 	/// Do the given block on `next`. This should be used to inject side effects into
