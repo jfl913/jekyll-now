@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /关于/
+permalink: /about/
 ---
 
 体胖还需勤锻炼，人丑就该多读书。长期征婚。
