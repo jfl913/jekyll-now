@@ -16,7 +16,7 @@ title: RAC-doNext
 	{% highlight Objective-C %}
 	doNext:^(HBUser *user) {
 	// doNext相当于一个钩子，是在sendNext时会被执行的一段代码
-	                  \@strongify(self);
+	                  \@\strongify(self);
 	                  self.user = user;
 	              }]
 	{% endhighlight %}
