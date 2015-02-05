@@ -9,4 +9,4 @@ permalink: /about/
 
 ### Contact me
 
-[jfl913@163.com](mailto:jfl913@163.com)
+欢迎大家关注我的[微博](http://www.weibo.com/1374862367)和[twitter](https://twitter.com/jfl913)
