@@ -5,6 +5,7 @@ title: RAC-doNext
 
 之前在看RAC的时候，一直不太明白`doNext`方法，看官方文档上写的是：
 
+
 	{% highlight Objective-C %}
 	/// Do the given block on `next`. This should be used to inject side effects into
 	/// the signal.
@@ -48,5 +49,6 @@ title: RAC-doNext
 					[subscriber sendNext:x];
 				}
 	{% endhighlight %}
+	
 				
 看这里已经很清楚了，`doNext`的`block`是在`sendNext`之前执行的。可以把limboy那段注释改为“**doNext相当于一个钩子，是在sendNext之前会被执行的一段代码**”
